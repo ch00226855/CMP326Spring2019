@@ -1,9 +1,9 @@
 public class Person{
 	
-	private String name;
-	private int birthYear;
-	private double weight;
-	private char gender;
+	protected String name; // protected fields are visible to Person and Employee
+	protected int birthYear;
+	protected double weight;
+	protected char gender;
 
 	public Person(String name, int birthYear, double weight, char gender){
 		this.name = name;
